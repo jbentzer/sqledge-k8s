@@ -18,7 +18,7 @@ spec:
             claimName: mssql-data
       containers:
         - name: azuresqledge
-          image: mcr.microsoft.com/azure-sql-edge:2.0.0
+          image: mcr.microsoft.com/azure-sql-edge:1.0.7
           ports:
             - containerPort: 1433
           volumeMounts:

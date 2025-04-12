@@ -1,6 +1,6 @@
 {
   image: "mcr.microsoft.com/azure-sql-edge",
-  tag: "2.0.0",
+  tag: "1.0.7",
   name: "sqledge",
   port: 1433,
   service_type: "ClusterIP",
